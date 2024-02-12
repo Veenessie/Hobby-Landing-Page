@@ -1,3 +1,59 @@
+body {
+  background: #8a9a5b;
+  font-family: "Poppins", sans-serif;
+}
+
+.theme-button {
+  background: black;
+  color: white;
+  font-size: 12px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  transition: all 200ms ease-in-out;
+}
+
+.theme-button:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+.container {
+  background: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin: 20px 30px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
 img {
-  width: 400px;
+  max-width: 100%;
+}
+
+.learn-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #8a9a5b;
+  background: white;
+  transition: all 200ms ease-in-out;
+}
+
+.learn-button:hover {
+  cursor: pointer;
+  background: rgba(138, 154, 91, 0.5);
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
