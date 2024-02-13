@@ -20,6 +20,7 @@ body {
   background: white;
   color: black;
 }
+
 .container {
   background: white;
   border-radius: 10px;
@@ -82,4 +83,40 @@ footer {
   text-align: center;
   margin-bottom: 20px;
   font-size: 14px;
+}
+
+.dark {
+  background: #133020;
+  color: white;
+}
+
+.dark a {
+  color: plum;
+}
+
+.dark .theme-button {
+  background: white;
+  color: black;
+}
+
+.dark .theme-button:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dark .learn-button {
+  background: black;
+  color: white;
+  border: none;
+}
+
+.dark .learn-button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
 }
