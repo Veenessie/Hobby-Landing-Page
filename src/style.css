@@ -3,6 +3,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
 .theme-button {
   background: black;
   color: white;
@@ -11,7 +14,7 @@ body {
   border: none;
   border-radius: 10px;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   transition: all 200ms ease-in-out;
 }
 
@@ -22,10 +25,12 @@ body {
 }
 
 .container {
+  display: block;
   background: white;
   border-radius: 10px;
   padding: 20px 30px;
-  margin: 20px 30px;
+  margin: 50px auto;
+  max-width: 800px;
 }
 
 h1,
@@ -86,7 +91,11 @@ footer {
 }
 
 .dark {
-  background: #133020;
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
   color: white;
 }
 
